@@ -528,7 +528,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 34px;
-  color: #be440b;
+  color: rgb(18 108 204); /* #be440b; */
   margin-bottom: 30px;
 }
 
