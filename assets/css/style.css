@@ -88,6 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent;
 }
 
+/* bandeau principal */
 #header.header-scrolled {
   background: rgba(61, 146, 188, 0.8); /*rgba(55, 142, 181, 0.9) */ /* immo rgba(228, 125, 84, 0.9) */
   padding: 12px;
@@ -711,26 +712,28 @@ section {
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
+
+/* bandeaux d'images */ 
 .cta1 {
-  background: linear-gradient(rgba(212, 97, 52, 0.8), rgba(212, 97, 52, 0.8)), url("../img/cta/cta1-bg.jpg") fixed center center; /* background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;*/
+  background: linear-gradient(rgba(61, 146, 188, 0.5), rgba(61, 146, 188, 0.5)), url("../img/cta/cta1-bg.jpg") fixed center center; /* background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;*/
   background-size: cover;
   padding: 60px 0;
 }
 
 .cta2 {
-  background: linear-gradient(rgba(212, 97, 52, 0.8), rgba(212, 97, 52, 0.8)), url("../img/cta/cta2-bg.jpg") fixed center center; /* background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;*/
+  background: linear-gradient(rgba(61, 146, 188, 0.5), rgba(61, 146, 188, 0.5)), url("../img/cta/cta2-bg.jpg") fixed center center; /* background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;*/
   background-size: cover;
   padding: 60px 0;
 }
 
 .cta3 {
-  background: linear-gradient(rgba(212, 97, 52, 0.8), rgba(212, 97, 52, 0.8)), url("../img/cta/cta3-bg.jpg") fixed center center; /* background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;*/
+  background: linear-gradient(rgba(61, 146, 188, 0.5), rgba(61, 146, 188, 0.5)), url("../img/cta/cta3-bg.jpg") fixed center center; /* background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;*/
   background-size: cover;
   padding: 60px 0;
 }
 
 .cta4 {
-  background: linear-gradient(rgba(212, 97, 52, 0.8), rgba(212, 97, 52, 0.8)), url("../img/cta/cta4-bg.jpg") fixed center center; /* background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;*/
+  background: linear-gradient(rgba(61, 146, 188, 0.5), rgba(61, 146, 188, 0.5)), url("../img/cta/cta4-bg.jpg") fixed center center; /* background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;*/
   background-size: cover;
   padding: 60px 0;
 }
