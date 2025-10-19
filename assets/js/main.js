@@ -169,6 +169,8 @@
         layoutMode: 'fitRows'
       });
 
+      portfolioIsotope.arrange({ filter: '.filter-avant' }); // Default filter on load, ajout perso
+
       let portfolioFilters = select('#portfolio-flters li', true);
 
       on('click', '#portfolio-flters li', function(e) {

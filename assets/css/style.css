@@ -15,7 +15,8 @@ body {
 
 a {
   text-decoration: none;
-  color: #df8857;
+  /* color: #df8857; */
+  color: rgb(17, 107, 138);
 }
 
 a:hover {
@@ -41,7 +42,8 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 998;
-  background: #df8857;
+  /* background: #df8857; */
+  background: rgb(17, 107, 138);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -90,7 +92,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* bandeau principal */
 #header.header-scrolled {
-  background: rgba(61, 146, 188, 0.8); /*rgba(55, 142, 181, 0.9) */ /* immo rgba(228, 125, 84, 0.9) */
+  background: rgb(220, 145, 41); 
+  /* période bleue  background: rgba(61, 146, 188, 0.8);  */
+  /*rgba(55, 142, 181, 0.9) */ /* immo rgba(228, 125, 84, 0.9) */
   padding: 12px;
 }
 
@@ -191,7 +195,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   text-transform: none;
   font-weight: 600;
-  color: #be440b;
+  /* color: #be440b;  #2f4d5a */
+  color: rgb(17, 107, 138);
 }
 
 .navbar .dropdown ul a i {
@@ -199,7 +204,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #df8857;
+  /* color: #df8857;  */
+  color: rgb(220, 145, 41);
 }
 
 .navbar .dropdown:hover > ul {
@@ -284,11 +290,13 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #be440b; /* #2f4d5a */
+  /*  color: #be440b; */ /* #2f4d5a */
+  color: rgb(17, 107, 138);
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #df8857;
+  /* color: #df8857; */
+  color: rgb(220, 145, 41);
 }
 
 .navbar-mobile .getstarted {
@@ -359,7 +367,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 56px;
   text-transform: uppercase;
   color: #fff;
-  text-shadow: -1px 0 2px #802a03;
+  /* text-shadow: -1px 0 2px #802a03; */
+  text-shadow: -3px -3px 1px #802a03;
 }
 
 #hero h2 {
@@ -430,7 +439,8 @@ section {
   font-weight: bold;
   position: relative;
   margin-bottom: 30px;
-  color: #be440b;
+  /* color: #be440b;  */
+  color: rgb(17, 107, 138);
   z-index: 2;
 }
 
@@ -529,7 +539,8 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 34px;
-  color: rgb(18 108 204); /* #be440b; */
+  /* color: rgb(18 108 204); */
+  color:rgb(17, 107, 138); 
   margin-bottom: 30px;
 }
 
@@ -539,7 +550,8 @@ section {
 
 .about .content .about-btn {
   display: inline-block;
-  background: #df8857;  /* #67b0d1 */
+  /* background: #df8857;   #67b0d1 */
+  background: rgb(17, 107, 138); 
   padding: 6px 44px 8px 30px;
   color: #fff;
   border-radius: 50px;
@@ -564,7 +576,9 @@ section {
 
 .about .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #df8857;
+  /* color: #df8857; */
+  color: rgb(17, 107, 138);
+
   margin-bottom: 10px;
 }
 
@@ -618,7 +632,8 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #df8857;
+  /*background: #df8857;*/
+  background: rgba(17, 107, 138,0.6);
   top: 0;
   border-radius: 0px;
 }
@@ -630,7 +645,8 @@ section {
 .services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #df8857;
+  /* color: #df8857;*/
+  color: rgb(17, 107, 138);
   transition: all 0.3s ease-in-out;
 }
 
@@ -638,6 +654,8 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  /* ajout */
+  color:rgb(17, 107, 138);
 }
 
 .services .title a {
@@ -673,7 +691,8 @@ section {
 .counts .count-box i {
   display: block;
   font-size: 44px;
-  color: #df8857;
+  /* color: #df8857; */
+  color: rgb(17, 107, 138);
   float: left;
   line-height: 0;
 }
@@ -683,7 +702,8 @@ section {
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #be440b;
+  /*color: #be440b;*/
+  color: rgb(17, 107, 138);
   margin-left: 60px;
 }
 
@@ -715,25 +735,28 @@ section {
 
 /* bandeaux d'images */ 
 .cta1 {
-  background: linear-gradient(rgba(61, 146, 188, 0.5), rgba(61, 146, 188, 0.5)), url("../img/cta/cta1-bg.jpg") fixed center center; /* background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;*/
+  /* période bleuebackground: linear-gradient(rgba(61, 146, 188, 0.5), rgba(61, 146, 188, 0.5)), url("../img/cta/cta1-bg.jpg") fixed center center; 
+  padding: 60px 0; */
+  /* background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;*/
+  background: linear-gradient(rgba(220, 145, 41,0.3), rgba(220, 145, 41,0.3)), url("../img/cta/cta1-bg.jpg") fixed center center; /* background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;*/
   background-size: cover;
   padding: 60px 0;
 }
 
 .cta2 {
-  background: linear-gradient(rgba(61, 146, 188, 0.5), rgba(61, 146, 188, 0.5)), url("../img/cta/cta2-bg.jpg") fixed center center; /* background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;*/
+  background: linear-gradient(rgba(220, 145, 41,0.4), rgba(220, 145, 41,0.4)), url("../img/cta/cta2-bg.jpg") fixed center center; /* background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;*/
   background-size: cover;
   padding: 60px 0;
 }
 
 .cta3 {
-  background: linear-gradient(rgba(61, 146, 188, 0.5), rgba(61, 146, 188, 0.5)), url("../img/cta/cta3-bg.jpg") fixed center center; /* background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;*/
+  background: linear-gradient(rgba(220, 145, 41,0.4), rgba(220, 145, 41,0.4)), url("../img/cta/cta3-bg.jpg") fixed center center; /* background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;*/
   background-size: cover;
   padding: 60px 0;
 }
 
 .cta4 {
-  background: linear-gradient(rgba(61, 146, 188, 0.5), rgba(61, 146, 188, 0.5)), url("../img/cta/cta4-bg.jpg") fixed center center; /* background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;*/
+  background: linear-gradient(rgba(220, 145, 41,0.3), rgba(220, 145, 41,0.3)), url("../img/cta/cta4-bg.jpg") fixed center center; /* background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;*/
   background-size: cover;
   padding: 60px 0;
 }
@@ -792,13 +815,14 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #be440b;
+  /* color: #be440b; */
+  color: rgb(17, 107, 138);
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #df8857;
+  color: #df8857; /*garder orange */
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -841,13 +865,17 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(212, 97, 52, 0.75); /*rgba(103, 176, 209, 0.75)*/
+  /* background: rgba(212, 97, 52, 0.75); */
+  background: rgba(17, 107, 138, 0.75);
+  /*rgba(103, 176, 209, 0.75)*/
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(212, 97, 52, 0.95); /*rgba(103, 176, 209, 0.95)*/
+  /*background: rgba(212, 97, 52, 0.95); */
+  background: rgba(17, 107, 138, 0.95);
+  /*rgba(103, 176, 209, 0.95)*/
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
@@ -888,11 +916,13 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #df8857;
+  /* border: 1px solid #df8857; */
+  border: 1px solid rgb(17, 107, 138);
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #df8857;
+  /* background-color: #df8857; */
+  background-color: rgb(17, 107, 138);
 }
 
 .portfolio-details .portfolio-info {
@@ -1011,11 +1041,13 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #df8857;
+  /* border: 1px solid #df8857; */
+  border: 1px solid rgb(17, 107, 138);
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #df8857;
+  /* background-color: #df8857; */
+  background-color: rgb(17, 107, 138);
 }
 
 /*--------------------------------------------------------------
@@ -1038,7 +1070,8 @@ section {
   right: 20px;
   background: #fff;
   padding: 20px 0;
-  color: #be440b;
+  /* color: #be440b; */
+  color: rgb(17, 107, 138);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   max-height: 95px;
   overflow: hidden;
@@ -1053,7 +1086,8 @@ section {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
-  color: #be440b;
+  /* color: #be440b; */
+  color: rgb(17, 107, 138);
   position: relative;
   padding-bottom: 10px;
 }
@@ -1085,7 +1119,8 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #df8857;
+  /* color: #df8857; */
+  color: rgb(17, 107, 138);
 }
 
 .team .member .social i {
@@ -1116,7 +1151,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #df8857;
+  color: #df8857; /*laisser orange */
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #f0f7fa;
@@ -1191,7 +1226,8 @@ section {
 }
 
 .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
-  background-color: #df8857;
+  /* background-color: #df8857; */
+  border-color: rgb(17, 107, 138);
 }
 
 .contact .php-email-form input {
@@ -1203,7 +1239,8 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #df8857;
+  /* background: #df8857; */
+  background: rgb(17, 107, 138);
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1236,7 +1273,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #263f49;
+  /* background: #263f49;*/
+  background: rgb(17, 107, 138); /* #1b2e36 */
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1250,8 +1288,9 @@ section {
   margin-top: -90px;
   margin-bottom: 15px;
   background: white;
-  color: #be440b;
-  border-top: 4px solid #df8857;
+  /* color: #be440b; */
+  color: rgb(17, 107, 138);
+  border-top: 4px solid #df8857; /* lisser orange */
   text-align: center;
   padding: 30px 20px;
 }
@@ -1274,7 +1313,8 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #be440b;
+  /* background: #be440b; */
+  background: rgb(17, 107, 138);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1287,7 +1327,8 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #df8857;
+  /* background: #df8857; */
+  background: rgb(17, 107, 138);
   color: #fff;
   text-decoration: none;
 }
@@ -1361,7 +1402,8 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #df8857;
+  /* background: #df8857; */
+  background: rgb(17, 107, 138);
   color: #fff;
   transition: 0.3s;
   border-radius: 4;
@@ -1394,3 +1436,82 @@ section {
 .image-artisan {
   width: 10vw;
 }
+
+
+/* TESTS */
+
+/* === Logo grand, bandeau fin === */
+/*
+#header {
+  padding: 0 !important;              
+  height: 75px !important;             
+  display: flex;
+  align-items: center;                 
+}
+
+#header .logo {
+  display: flex;
+  align-items: center;
+}
+
+#header .logo img {
+  height: 115px !important;             
+  width: auto !important;
+  margin-right: 12px;
+  transform: none !important;
+}
+
+#header .logo span {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+}*/
+  
+
+/*
+ padding: 0 !important;               /* enlève le padding vertical 
+  height: 75px !important;             /* hauteur fixe du bandeau 
+  align-items: center;                 /* centre verticalement le contenu 
+    height: 115px !important;             /* taille réelle du logo 
+*/
+
+/* === Ajustement du logo La Halle aux Bois === */
+#header {
+  height: 75px;                      /* hauteur fixe du bandeau */
+  display: flex;
+  align-items: center;               /* centre verticalement */
+}
+
+#header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header .logo img {
+  height: 115px;                      /* taille visible du logo */
+  width: auto;
+  max-height: 100%;
+  object-fit: contain;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+#header .logo h1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  line-height: 1;
+}
+
+/* === Version mobile === */
+@media (max-width: 991px) {
+  #header .logo img {
+    height: 45px;                    /* logo réduit mais lisible */
+  }
+}
+
+
+
+
