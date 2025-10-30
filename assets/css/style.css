@@ -341,7 +341,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(236, 107, 47, 0.25), rgba(55, 142, 181, 0.2)), url("../img/hero-bg.jpg") top center;
+  background: linear-gradient(rgba(236, 107, 47, 0.25), rgba(55, 142, 181, 0.2)), url("../img/bannieresSite.jpg") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
