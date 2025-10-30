@@ -122,59 +122,78 @@
   <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="lentreprise" class="about">
-      <div class="container">
+   <section id="lentreprise" class="about">
+  <div class="container">
 
-        <div class="row no-gutters">
-          <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="content">
-              <h3>L'Atelier</h3>
-              <p><strong>Artisans restaurateurs passionnés, nous redonnons vie à vos meubles anciens avec savoir-faire et respect de la tradition.</strong></p>
+    <div class="row no-gutters">
+      <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
+        <div class="content">
+          <h3>L'Atelier</h3>
+          <p><strong>Artisans restaurateurs passionnés, nous redonnons vie à vos meubles anciens avec savoir-faire et respect de la tradition.</strong></p>
 
-              <p>Chaque pièce que nous restaurons raconte une histoire : nous prenons soin de conserver son caractère et son authenticité tout en lui offrant une nouvelle jeunesse. De l'ébénisterie à la garniture, chaque détail compte.</p>
+          <p>Chaque pièce que nous restaurons raconte une histoire : nous prenons soin de conserver son caractère et son authenticité tout en lui offrant une nouvelle jeunesse. De l'ébénisterie à la garniture, chaque détail compte.</p>
 
-                <!-- <p>Artisans restaurateurs, nous allions l'expérience et les règles de l'art dans vos projets de rénovation de meubles anciens.</p>  -->
-              <p><img class="image-artisan" src="assets/img/artisan.png" class="img-fluid" alt="">
-				<img class="image-artisan" src="assets/img/AtelierDepuis40Ans.png" class="img-fluid" alt=""></p>
+          <!-- Images côte à côte -->
+          <div class="images-container">
+            <img src="assets/img/artisan.png" alt="Artisan">
+            <img src="assets/img/AtelierDepuis40Ans.png" alt="Atelier depuis 40 ans">
+          </div>
 
+          <p>Ne pas hésiter à nous contacter pour tout renseignement.</p>
 
-				
-              <!--<p> Nos devis personnalisés sont gratuits.</p>-->
-			  <p>Ne pas hésiter à nous contacter pour tout renseignement.</p>
+          <a href="#contact" class="about-btn">contact <i class="bx bx-chevron-right"></i></a>
+        </div>
+      </div>
 
-              <a href="#contact" class="about-btn">contact <i class="bx bx-chevron-right"></i></a>
+      <div class="col-xl-7 d-flex align-items-stretch">
+        <div class="icon-boxes d-flex flex-column justify-content-center">
+          <div class="row">
+            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+              <h4>Savoir-faire reconnu</h4>
+              <p>Jean-Luc Hoogsteyn, restaurateur et ébéniste depuis 1987, et Kathleen De Smet, restauratrice formée à ses côtés, unissent leurs compétences pour garantir un travail irréprochable.</p>
+            </div>
+            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+              <h4>Travail minutieux et respectueux</h4>
+              <p>Chaque restauration est réalisée dans les règles de l’art, avec des techniques traditionnelles et des matériaux de qualité.</p>
+            </div>
+            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+              <h4>Devis personnalisés et gratuits</h4>
+              <p>Nous évaluons les meubles directement à l’atelier, afin de vous proposer un devis au plus juste et adapté à vos besoins.</p>
+            </div>
+            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+              <h4>Respect de la déontologie</h4>
+              <p>Nous respectons les règles du métier : choix réfléchis des matériaux, réparations limitées au nécessaire, traçabilité des interventions et communication claire avec le client.</p>
             </div>
           </div>
-          <div class="col-xl-7 d-flex align-items-stretch">
-            <div class="icon-boxes d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <!-- <i class="bx bx-receipt"></i> -->
-                  <h4>Savoir-faire reconnu</h4>
-                  <p>Jean-Luc Hoogsteyn, restaurateur et ébéniste depuis 1987, et Kathleen De Smet, restauratrice formée à ses côtés, unissent leurs compétences pour garantir un travail irréprochable.</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <!-- <i class="bx bx-cube-alt"></i> -->
-                  <h4>Travail minutieux et respectueux</h4>
-                  <p>Chaque restauration est réalisée dans les règles de l’art, avec des techniques traditionnelles et des matériaux de qualité.</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <!-- <i class="bx bx-images"></i> -->
-                  <h4>Devis personnalisés et gratuits</h4>
-                  <p>Nous évaluons les meubles directement à l’atelier, afin de vous proposer un devis au plus juste et adapté à vos besoins.</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                  <!-- <i class="bx bx-shield"></i> -->
-                  <h4>Respect de la déontologie</h4>
-                  <p>Nous respectons les règles du métier : choix réfléchis des matériaux, réparations limitées au nécessaire, traçabilité des interventions et communication claire avec le client.</p>
-                </div>
-              </div>
-            </div><!-- End .content-->
-          </div>
         </div>
-
       </div>
-    </section><!-- End About Section -->
+    </div>
+
+  </div>
+
+  <!-- CSS pour les images côte à côte -->
+  <style>
+    .images-container {
+      display: flex;
+      gap: 10px;             /* espace entre les images */
+      flex-wrap: wrap;       /* permet de passer à la ligne sur petit écran */
+      justify-content: center;
+      margin-bottom: 15px;   /* un petit espace en dessous */
+    }
+
+    .images-container img {
+      max-width: 45%;        /* chaque image prend au maximum 45% du conteneur */
+      height: auto;
+    }
+
+    @media (max-width: 600px) {
+      .images-container img {
+        max-width: 100%;     /* sur mobile, images pleine largeur */
+      }
+    }
+  </style>
+</section>
+
 
     <!-- ======= Cta 0 Section ======= -->
     <section id="cta1" class="cta cta1">
@@ -255,7 +274,7 @@
                 </a>
               </div>
               <br>
-              <h4 class="title">Placage et marqueterie :</h4>
+              <h4 class="title">Placage et marqueterie</h4>
               <p class="description">réparation, remplacement ou réintégration des placages anciens selon les techniques d’époque</p>
             </div>
           </div>
@@ -274,7 +293,7 @@
               </div>
               <br>
               <!-- <div class="pic"><img src="assets/img/services/maconnerie.jpg" class="img-fluid" alt=""></div> -->
-              <h4 class="title">Travail des matières précieuses :</h4>
+              <h4 class="title">Travail des matières précieuses</h4>
               <p class="description">restauration d’éléments en os, ivoire ancien ou écaille de tortue</p>
             </div>
           </div>        
@@ -288,7 +307,7 @@
                 </a>
               </div>
               <br>
-              <h4 class="title">Vernissage au tampon : </h4>
+              <h4 class="title">Vernissage au tampon </h4>
               <p class="description">finition traditionnelle pour un rendu raffiné, profond et authentique</p>
             </div>
           </div>
@@ -1093,6 +1112,7 @@
 
 
 </html>
+
 
 
 
